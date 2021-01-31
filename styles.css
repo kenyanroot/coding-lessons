@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+
+    width: 70vw; 
+    height: 100vh;
+    margin-top: 40px;
+    background-color: aqua;
+}
+
+.our-menu{
+
+    width: 70vw; 
+    height: 15vh;
+    background-color: red;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.foods{
+    width: 70vw; 
+    min-height: 70vh;
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+}
+
+
+.foodcard{
+
+    width:250px ; 
+    height: 40vh;
+    margin-left: 20px;
+    margin-top: 10px;
+    /* background-color: green;  */
+
+
+}
+
+
+.icon{
+    width: 40px;
+    height: 40px;
+}
+
+.image{
+    width:250px ; 
+    height: 25vh;
+}
+
+
+
